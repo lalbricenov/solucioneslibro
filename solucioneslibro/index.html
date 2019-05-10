@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Soluciones L'Amaldi.blu</title>
+</head>
+<body>
+    <ul id="listaEjercicios">
+        
+    </ul>
+
+    <script>
+        for (i = 1; i < 20; i++)
+        {
+            let content = document.getElementById("listaEjercicios").innerHTML;
+            content = content + "<a href='./ej"+i+".html'><li>Capítulo "+i+"</li></a>";
+            document.getElementById("listaEjercicios").innerHTML = content;
+        }
+        
+
+    </script>
+</body>
+</html>
